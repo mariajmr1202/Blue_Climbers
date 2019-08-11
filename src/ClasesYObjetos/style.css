@@ -1,0 +1,454 @@
+#ventana{
+    -fx-background-image: url("/Imagenes/fondoBlue.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 1000 500;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#titulo{
+    -fx-background-image: url("/Imagenes/Titulo.png");
+    -fx-background-repeat: stretch; 
+    -fx-background-size: 300 300;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#boton-next{
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 40 29;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;     
+}
+
+#botonOn{
+    -fx-graphic: url("/Imagenes/on.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+
+#botonOff{
+    -fx-graphic: url("/Imagenes/off.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton-next:hover{
+    -fx-cursor: hand;
+}
+#pane-acercade{
+    -fx-background-image: url("/Imagenes/fondito.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 850 500;
+    -fx-background-position: center center;     
+}
+
+#pane-resultado{
+    -fx-background-image: url("/Imagenes/fondito.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 850 500;
+    -fx-background-position: center center;     
+}
+
+#pane-ayuda{
+    -fx-background-image: url("/Imagenes/Ayuda.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 850 500;
+    -fx-background-position: center center;     
+}
+
+#pane-Estadistica{
+    -fx-background-image: url("/Imagenes/Estadistica_fondo.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 850 500;
+    -fx-background-position: center center;     
+}
+
+#boton-back-stats{
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 40 29;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;      
+}
+
+#ip-field{
+    -fx-background-position: center center;
+    -fx-border-color: transparent; 
+    -fx-background-color: transparent;
+    -fx-display-caret: false;
+    -fx-text-fill: white;
+    -fx-translate-x: 315;
+    -fx-translate-y: -205;
+}
+
+#link-Pin{
+    -fx-graphic: url("/Pines/linkx.png");    
+    -fx-translate-x: -40;
+    -fx-translate-y: 130;
+}
+#mega-Pin{
+    -fx-graphic: url("/Pines/megamanetiqueta.png");  
+    -fx-translate-x: -70;
+    -fx-translate-y: 150;    
+}
+#shadow-Pin{
+    -fx-graphic: url("/Pines/shadow.png");     
+    -fx-translate-x: -60;
+    -fx-translate-y: 150;
+}
+#sonic-Pin{
+    -fx-graphic: url("/Pines/sonic2.png");      
+    -fx-translate-x: -40;
+    -fx-translate-y: 150;
+}
+
+#stock-Link{
+    -fx-graphic: url("/Pines/links.png");    
+    -fx-translate-x: 128;
+    -fx-translate-y: 201;
+}
+
+#stock-Shadow{
+    -fx-graphic: url("/Pines/shadows.png");    
+    -fx-translate-x: 128;
+    -fx-translate-y: 265; 
+}
+
+#stock-Mega{
+    -fx-graphic: url("/Pines/megas.png");    
+    -fx-translate-x: 122;
+    -fx-translate-y: 320; 
+}
+
+#stock-Sonic{
+    -fx-graphic: url("/Pines/sonis.png");    
+    -fx-translate-x: 128;
+    -fx-translate-y: 386; 
+}
+
+#-etiqueta-{    
+    -fx-graphic: url("/Pines/usuario.png"); 
+    -fx-translate-x: 55;
+    -fx-translate-y: 140;
+    
+}
+
+#pane-smash{
+    -fx-background-image: url("/Imagenes/fondonegro.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 850 500;
+    -fx-background-position: center center;
+}
+
+#tuIP{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: white;
+}
+
+#ShadowP{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#ShadowG{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#ShadowT{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#LinkP{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#LinkG{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#LinkT{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#MegaP{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#MegaG{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#MegaT{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#SonicP{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#SonicG{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#SonicT{
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;    
+    -fx-display-caret: false;
+    -fx-text-fill: black; 
+}
+
+#user-text-field{ 
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent; 
+    -fx-display-caret: false;
+    -fx-text-fill: white;
+    -fx-translate-x:515;
+    -fx-translate-y: 140;
+
+}
+
+#host-button{
+    -fx-graphic: url("/Imagenes/host-button3.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 140 27;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;       
+}
+
+#host-button:hover{
+    -fx-graphic: url("/Imagenes/host-button-hover3.png");
+    -fx-cursor: hand;
+}
+
+
+#join-button{
+    -fx-graphic: url("/Imagenes/join-button2.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 140 27;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;       
+}
+
+#join-button:hover{
+    -fx-graphic: url("/Imagenes/join-button-hover.png");
+    -fx-cursor: hand;
+}
+
+#boton-start{
+    -fx-graphic: url("/Imagenes/botonnegro.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-radius: 90px;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;       
+}
+
+#boton-start:hover{
+    -fx-graphic: url("/Imagenes/botonrojo.png");
+    -fx-cursor: hand;
+}
+
+#boton-link{
+    -fx-graphic: url("/Pines/linkpin.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 130 90;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;
+}
+
+#boton-link:hover{
+    -fx-graphic: url("/Pines/linkpin2.png");   
+    -fx-cursor: hand;
+}
+
+#boton-shadow{
+    -fx-graphic: url("/Pines/shadowpin.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 130 90;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;
+}
+
+#boton-shadow:hover{
+    -fx-graphic: url("/Pines/shadowpin2.png");
+    -fx-cursor: hand;    
+}
+
+#boton-mega{
+    -fx-graphic: url("/Pines/megapin1.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 130 90;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+
+#boton-mega:hover{
+    -fx-graphic: url("/Pines/megapin2.png");
+    -fx-cursor: hand;
+}
+
+#boton-sonic{
+    -fx-graphic: url("/Pines/sonicpin.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 130 90;
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent;
+}
+
+#boton-sonic:hover{
+    -fx-graphic: url("/Pines/sonicpin2.png");
+    -fx-cursor: hand;
+}
+
+#boton0{
+    -fx-graphic: url("/Imagenes/botondumby2.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+
+#boton0:hover{
+    -fx-graphic: url("/Imagenes/botondumby1.png");
+    -fx-cursor: hand;
+}
+
+#boton1{
+    -fx-graphic: url("/Imagenes/ajuste1.png");  
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton1:hover{
+    -fx-graphic: url("/Imagenes/ajuste2.png"); 
+    -fx-cursor: hand;
+}
+
+#boton2{
+    -fx-graphic: url("/Imagenes/estadistica1.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton2:hover{
+    -fx-graphic: url("/Imagenes/estadistica2.png");
+    -fx-cursor: hand;    
+}
+
+#boton3{
+    -fx-graphic: url("/Imagenes/acercade2.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton3:hover{
+    -fx-graphic: url("/Imagenes/acercade1.png");
+    -fx-cursor: hand;    
+}
+
+#boton4{
+    -fx-graphic: url("/Imagenes/ayuda2.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton4:hover{
+    -fx-graphic: url("/Imagenes/ayuda1.png");
+    -fx-cursor: hand;    
+}
+
+#boton-atras{
+    -fx-graphic: url("/Imagenes/atras2.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton-atras:hover{
+    -fx-graphic: url("/Imagenes/atras1.png");
+    -fx-cursor: hand;    
+}
+
+#boton-aceptar{
+    -fx-graphic: url("/Imagenes/atras2.png");
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill:transparent; 
+}
+#boton-aceptar:hover{
+    -fx-graphic: url("/Imagenes/atras1.png");
+    -fx-cursor: hand;    
+}
